@@ -1,26 +1,65 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&amp;lang=en');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.accordion-content {
+  max-height: 0;
+  padding-bottom: 0;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  overflow: hidden;
+  transition: 250ms ease;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.accordion-content p {
+  opacity: 0;
+  transform: translateY(-2rem);
+  transition: 500ms ease;
 }
 
-* {
-  box-sizing: border-box;
+.accordion-content.is-active {
+  max-height: 65rem;
+  padding-bottom: 0.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.accordion-content.is-active p {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 500ms ease;
+}
+
+.accordion-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background-color: transparent;
+}
+
+.accordion-icon:before,
+.accordion-icon:after {
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 2px;
+
+  transition: 500ms ease;
+}
+
+.accordion-icon:after {
+  transform: rotate(90deg);
+}
+
+.accordion-icon.is-active:before {
+  transform: rotate(360deg);
+}
+
+.accordion-icon.is-active:after {
+  transform: rotate(360deg);
+  transition-delay: 0.08s;
 }

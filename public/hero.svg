@@ -1,0 +1,60 @@
+<svg width="636" height="423" viewBox="0 0 636 423" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="82.9186" y="52.9545" width="479.39" height="331.045" rx="10" fill="#454545"/>
+<rect x="98.8983" y="68.352" width="447.431" height="277.154" fill="#FFD37D"/>
+<rect x="19" y="360.904" width="607.227" height="23.0962" rx="2" fill="#737171"/>
+<path d="M266.685 360.904H378.542V365.142C378.542 367.904 376.304 370.142 373.542 370.142H271.685C268.923 370.142 266.685 367.904 266.685 365.142V360.904Z" fill="#ABABAB"/>
+<g filter="url(#filter0_d_202_3)">
+<rect x="63.9182" y="28" width="432.545" height="286.145" fill="#525252"/>
+</g>
+<rect x="63.9182" y="28" width="432.545" height="33.2727" fill="url(#paint0_radial_202_3)"/>
+<rect x="191.755" y="36.3182" width="175.12" height="4.99091" fill="#FFB938"/>
+<ellipse cx="71.7986" cy="38.8137" rx="2.62679" ry="2.49545" fill="#FFB938"/>
+<ellipse cx="82.3058" cy="38.8137" rx="2.62679" ry="2.49545" fill="#FFB938"/>
+<ellipse cx="92.813" cy="38.8137" rx="2.62679" ry="2.49545" fill="#FFB938"/>
+<rect x="88.435" y="77.9091" width="8.75598" height="8.31818" fill="#D9D9D9"/>
+<rect x="107.698" y="77.9091" width="52.5359" height="8.31818" fill="#FF8A00"/>
+<rect x="107.698" y="94.5454" width="78.8038" height="8.31818" fill="#FF8A00"/>
+<rect x="107.698" y="144.455" width="70.0478" height="8.31818" fill="#FF8A00"/>
+<rect x="116.454" y="161.091" width="87.5598" height="8.31818" fill="#D9D9D9"/>
+<rect x="107.698" y="177.727" width="35.0239" height="8.31818" fill="#FF8A00"/>
+<rect x="116.454" y="194.364" width="70.0478" height="8.31818" fill="#D9D9D9"/>
+<rect x="107.698" y="227.636" width="61.2919" height="8.31818" fill="#FF8A00"/>
+<rect x="116.454" y="244.273" width="96.3158" height="8.31818" fill="#D9D9D9"/>
+<rect x="195.258" y="194.364" width="35.0239" height="8.31818" fill="#FFA500"/>
+<rect x="239.038" y="194.364" width="61.2919" height="8.31818" fill="#D9D9D9"/>
+<rect x="151.478" y="177.727" width="61.2919" height="8.31818" fill="#D9D9D9"/>
+<rect x="221.526" y="177.727" width="43.7799" height="8.31818" fill="#FFA500"/>
+<rect x="274.062" y="177.727" width="52.5359" height="8.31818" fill="#D9D9D9"/>
+<rect x="212.77" y="161.091" width="87.5598" height="8.31818" fill="#D9D9D9"/>
+<rect x="186.502" y="144.455" width="43.7799" height="8.31818" fill="#D9D9D9"/>
+<rect x="239.038" y="144.455" width="35.0239" height="8.31818" fill="#FFA500"/>
+<rect x="116.454" y="111.182" width="52.5359" height="8.31818" fill="#D9D9D9"/>
+<rect x="177.746" y="111.182" width="43.7799" height="8.31818" fill="#D9D9D9"/>
+<rect x="88.435" y="94.5454" width="8.75598" height="8.31818" fill="#D9D9D9"/>
+<rect x="88.435" y="111.182" width="8.75598" height="8.31818" fill="#D9D9D9"/>
+<rect x="88.435" y="127.818" width="8.75598" height="8.31818" fill="#D9D9D9"/>
+<rect x="88.435" y="144.455" width="8.75598" height="8.31818" fill="#D9D9D9"/>
+<rect x="88.435" y="161.091" width="8.75598" height="8.31818" fill="#D9D9D9"/>
+<rect x="88.435" y="177.727" width="8.75598" height="8.31818" fill="#D9D9D9"/>
+<rect x="88.435" y="194.364" width="8.75598" height="8.31818" fill="#D9D9D9"/>
+<rect x="88.435" y="211" width="8.75598" height="8.31818" fill="#D9D9D9"/>
+<rect x="88.435" y="227.636" width="8.75598" height="8.31818" fill="#D9D9D9"/>
+<rect x="88.435" y="244.273" width="8.75598" height="8.31818" fill="#D9D9D9"/>
+<rect x="88.435" y="277.545" width="8.75598" height="8.31818" fill="#D9D9D9"/>
+<rect x="88.435" y="260.909" width="8.75598" height="8.31818" fill="#D9D9D9"/>
+<defs>
+<filter id="filter0_d_202_3" x="63.9182" y="28" width="444.545" height="301.145" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="12" dy="15"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_202_3"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_202_3" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_202_3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(63.9182 61.2726) scale(432.545 5074.84)">
+<stop stop-color="#FF8A00"/>
+<stop offset="1" stop-color="#FFA500"/>
+</radialGradient>
+</defs>
+</svg>
