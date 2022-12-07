@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app';
 import { AnimatePresence } from 'framer-motion';
 import { ThemeProvider } from 'next-themes';
 
-import Main from '../components/layouts/Main';
+import Main from '../components/Layouts/Main';
 
 import '../styles/globals.css';
 
@@ -24,7 +24,7 @@ export default function App({ Component, pageProps, router }: MyAppProps) {
     <ThemeProvider attribute="class">
       <Main seoTitle="OP Services" router={router}>
         <AnimatePresence
-          exitBeforeEnter
+          // exitBeforeEnter
           initial={true}
           onExitComplete={() => {
             if (typeof window !== 'undefined') {

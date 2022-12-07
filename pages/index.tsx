@@ -1,12 +1,16 @@
-import Clients from '../components/clients/Clients';
-import FAQ from '../components/faq/FAQ';
-import Hero from '../components/Hero';
+import Clients from '../components/Marquee/Clients';
+import FAQ from '../components/FAQ/FAQ';
+import Hero from '../components/Heroes/Hero';
 import MeetMeSection from '../components/MeetMeSection';
-import VideoHero from '../components/VideoHero';
+import VideoHero from '../components/Heroes/VideoHero';
+import WhatWeCanOffer from '../components/WhatWeCanOffer';
+import Footer from '../components/Footer';
+import ContactOrb from '../components/ContactOrb';
 
 export default function Home() {
   return (
     <div className="w-full overflow-hidden bg-primary dark:bg-dark-primary">
+      <ContactOrb />
       {/* Image Hero w/ CTA */}
       {/* Section with image/text + Transition from each side to center */}
       <Hero
@@ -18,7 +22,6 @@ export default function Home() {
         below."
         imageSrc={'/hero.svg'}
       />
-      {/* Meet me section describing developers and their skills */}
       <MeetMeSection />
       <VideoHero
         videoM4v={'http://media.w3.org/2010/05/sintel/trailer.mp4'}
@@ -29,6 +32,7 @@ export default function Home() {
         highlightText="Development"
         subTitle={'take on the journey'}
       />
+      <WhatWeCanOffer />
       <h1>I'll build the website you're looking for!</h1>
       From an online retailer, to a coffee shop to advertising a service or even
       starting a takeaway. I'll build your site from the ground up with care and
@@ -48,9 +52,8 @@ export default function Home() {
       <FAQ />
       Contact form
       <br></br>
-      Footer
       {/* Contact orb position fixed to the righthand corner w/ contact methods/form */}
-      {/* Footer */}
+      <Footer />
     </div>
   );
 }
