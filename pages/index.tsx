@@ -14,8 +14,6 @@ export default function Home() {
   return (
     <div className="w-full overflow-hidden bg-primary dark:bg-dark-primary">
       <ContactOrb />
-      {/* Image Hero w/ CTA */}
-      {/* Section with image/text + Transition from each side to center */}
       <Hero
         tagline="Buy my product"
         title={

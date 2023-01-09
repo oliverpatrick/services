@@ -1,6 +1,4 @@
-const FeedbackCard = ({ content, name, title, img }: any) => {
-  console.log(img);
-
+const FeedbackCard = ({ content, name, title }: any) => {
   return (
     <div className="max-w-md h-max inline-block w-full rounded-[20px] p-6 m-4 bg-[#e7e7e7] dark:bg-[#2d2d30] bg-white hover:shadow-lg cursor-pointer">
       <div className="w-full flex justify-end mb-2">

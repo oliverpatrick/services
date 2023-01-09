@@ -4,8 +4,6 @@ function ContactOrb() {
   const [open, setOpen] = useState(false);
 
   function onOpen() {
-    console.log('clicked');
-    console.log(open);
     setOpen(!open);
   }
 
@@ -21,7 +19,6 @@ function ContactOrb() {
 }
 
 function ContactMenu({ open }: any) {
-  console.log(open);
   return (
     <div
       className={`${
