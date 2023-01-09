@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Marquee from 'react-fast-marquee';
 import { clients } from '../../constants';
 
