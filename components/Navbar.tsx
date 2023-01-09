@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import ThemeToggle from '../ThemeToggle';
+import ThemeToggle from './ThemeToggle';
 
 function Navbar({ path }: any) {
   console.log(path);

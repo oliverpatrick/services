@@ -22,9 +22,8 @@ interface MyAppProps extends AppProps<PageProps> {
 export default function App({ Component, pageProps, router }: MyAppProps) {
   return (
     <ThemeProvider attribute="class">
-      <Main seoTitle="OP Services" router={router}>
+      <Main seoTitle="CIO Services" router={router}>
         <AnimatePresence
-          // exitBeforeEnter
           initial={true}
           onExitComplete={() => {
             if (typeof window !== 'undefined') {
