@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import Head from 'next/head';
 
-import Navbar from '../navbar/Navbar';
+import Navbar from '../Navbar/Navbar';
 import { Poppins } from '@next/font/google';
 
 interface IMainLayout {

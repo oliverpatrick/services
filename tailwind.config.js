@@ -24,6 +24,7 @@ module.exports = {
       'text-primary-light': '#ffffff40',
       'text-primary-dark': '#20202380',
       orange: '#FFA500',
+      yellow: '#FFD400',
     },
     extend: {
       fontFamily: {

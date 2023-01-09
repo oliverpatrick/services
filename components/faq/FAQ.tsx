@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import Accordion from './Accordion';
-// import QuestionItem from './QuestionItem';
+import Accordion from './Question';
 
 function FAQ() {
   return (
@@ -21,27 +20,9 @@ function FAQ() {
         </motion.h2>
       </div>
 
-      {/* <div className="lg:w-[80%] w-full max-w-6xl flex justify-center items-center flex-col mt-10">
-        <QuestionItem
-          questionTitle={'Question 1'}
-          answer={`Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> className. This is
-              the first item's accordion body.`}
-        />
-        <QuestionItem
-          questionTitle={'Question 1'}
-          answer={`Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> className. This is
-              the first item's accordion body.`}
-        />{' '}
-        <QuestionItem
-          questionTitle={'Question 1'}
-          answer={`Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> className. This is
-              the first item's accordion body.`}
-        />
-      </div> */}
-      <Accordion />
+      <div className="lg:w-[80%] w-full max-w-6xl flex justify-center items-center flex-col mt-10">
+        <Accordion />
+      </div>
     </div>
   );
 }

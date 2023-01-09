@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div className="flex justify-center items-center sm:p-16 xs:p-8 px-6 py-12 border-t dark:border-t-[#161B22] border-t-pro-w-border">
-      <div className="pt-10 w-full flex justify-between md:items-start items-center md:flex-row flex-col border-t dark:border-t-[#161B22] border-t-pro-w-border">
+    <div className="flex justify-center items-center sm:p-16 xs:p-8 px-6 py-12">
+      <div className="pt-10 w-full max-w-5xl flex justify-between md:items-start items-center md:flex-row flex-col border-t dark:border-t-[#161B22] border-t-pro-w-border">
         <div className="w-full flex justify-between md:items-start items-center md:flex-row flex-col">
           <div className="flex flex-1 md:mb-0 mb-7">
             <svg

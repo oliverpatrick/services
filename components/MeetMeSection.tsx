@@ -6,6 +6,18 @@ function MeetMeSection() {
   return (
     <div className="flex items-center justify-center px-6 py-12 sm:p-16 xs:p-8">
       <div className="flex justify-center items-center 3xl:max-w-[1280px] w-full overflow-hidden flex-col">
+        <motion.img
+          initial={{ opacity: 0, x: 0, y: 100 }}
+          whileInView={{
+            x: 0,
+            y: 0,
+            opacity: 1,
+            transition: { duration: 1, type: 'easeInOut' },
+          }}
+          alt="Profile"
+          src="https://picsum.photos/200"
+          className="m-3 rounded-full border-4 dark:border-[#f4f4f4] border-[#000]"
+        />
         <motion.h1
           initial={{ opacity: 0, x: 0, y: 100 }}
           whileInView={{
@@ -19,7 +31,9 @@ function MeetMeSection() {
           Meet The Developer:
           <br />
           <Link href="https://www.opdev.co.uk">
-            <span className="text-gradient">Oliver Patrick</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow to-orange">
+              Oliver Patrick
+            </span>
           </Link>
         </motion.h1>
 
@@ -31,9 +45,10 @@ function MeetMeSection() {
           }}
         >
           <p className="max-w-5xl my-5 text-xl font-normal leading-6 text-justify xs:px-8 font-poppins xs:text-2xl xs:leading-7 dark:dark-text text-light-text">
-            {`My name is Oliver, I'm a full stack developer located in Leeds. I've
-          been working in React for most of my career making incredible medical
-          software for general practicioners and NHS staff alike.`}
+            My name is Oliver, I&apos;m a full stack developer located in Leeds.
+            I&apos;ve been working in React for most of my career making
+            incredible medical software for general practicioners and NHS staff
+            alike.
           </p>
 
           <p className="max-w-5xl my-5 text-xl font-normal leading-6 text-justify font-poppins xs:text-2xl xs:px-8 xs:leading-7 dark:dark-text text-light-text">

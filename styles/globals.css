@@ -4,62 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
-.accordion-content {
-  max-height: 0;
-  padding-bottom: 0;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  overflow: hidden;
-  transition: 250ms ease;
-}
-
-.accordion-content p {
-  opacity: 0;
-  transform: translateY(-2rem);
-  transition: 500ms ease;
-}
-
-.accordion-content.is-active {
-  max-height: 65rem;
-  padding-bottom: 0.5rem;
-}
-
-.accordion-content.is-active p {
-  opacity: 1;
-  transform: translateY(0);
-  transition: 500ms ease;
-}
-
-.accordion-icon {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  border: 0;
-  background-color: transparent;
-}
-
-.accordion-icon:before,
-.accordion-icon:after {
-  position: absolute;
-  content: '';
-  width: 50%;
-  height: 2px;
-
-  transition: 500ms ease;
-}
-
-.accordion-icon:after {
-  transform: rotate(90deg);
-}
-
-.accordion-icon.is-active:before {
-  transform: rotate(360deg);
-}
-
-.accordion-icon.is-active:after {
-  transform: rotate(360deg);
-  transition-delay: 0.08s;
+@layer utilities {
+  @variants responsive {
+    .text-shadow {
+      text-shadow: 0px 0.4px 3px black;
+    }
+    .text-shadow-md {
+      text-shadow: 0px 0.6px 5px black;
+    }
+    .text-shadow-lg {
+      text-shadow: 0px 0.8px 7px black;
+    }
+    .text-shadow-none {
+      text-shadow: none;
+    }
+  }
 }

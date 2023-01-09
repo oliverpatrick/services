@@ -14,7 +14,7 @@ function Navbar({ path }: any) {
             </h2>
           </Link>
           <div className="items-center hidden gap-6 md:flex">
-            <Link href="/">About</Link>
+            <Link href="https://www.opdev.co.uk">About</Link>
           </div>
           <div className="flex-1"></div>
           <ThemeToggle />
