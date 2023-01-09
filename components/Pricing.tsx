@@ -27,7 +27,7 @@ function Pricing() {
           </div>
         </div>
 
-        <div className="bg-[#a1a1a1] rounded-md overflow-hidden text-center shadow max-w-xs mx-auto lg:mx-0 flex-grow lg:scale-110">
+        <div className="my-5 bg-[#a1a1a1] rounded-md overflow-hidden text-center shadow max-w-xs mx-auto lg:mx-0 flex-grow lg:scale-110">
           <div className="bg-white h-1/4 py-12 px-5">
             <h1
               className="capitalize font-bold text-5xl text-blue-500"
@@ -140,7 +140,7 @@ function Pricing() {
           </div>
         </div>
 
-        <div className="bg-[#a1a1a1] rounded-md overflow-hidden text-center shadow max-w-xs mx-auto lg:mx-0 flex-grow lg:scale-110 ">
+        <div className="my-5 bg-[#a1a1a1] rounded-md overflow-hidden text-center shadow max-w-xs mx-auto lg:mx-0 flex-grow lg:scale-110 ">
           <div className="bg-white py-12 px-5">
             <h1
               className="capitalize font-bold text-5xl text-blue-400"
